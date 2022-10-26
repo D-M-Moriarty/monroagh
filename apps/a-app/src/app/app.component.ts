@@ -12,7 +12,7 @@ export class AppComponent {
 
   doSomething() {
     const timestamp = '1551830399000';
-    const date = DateUtils.parse(timestamp);
+    DateUtils.parse(timestamp);
   }
 
   makeCompany() {
