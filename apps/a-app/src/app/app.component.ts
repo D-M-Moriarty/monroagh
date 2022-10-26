@@ -24,15 +24,15 @@ export class AppComponent {
         addressThree: '',
         postcode: '',
         country: '',
-        county: ''
+        county: '',
       },
       users: [
         {
-          name: 'Bob', 
-          sex: 'yes'
-        }
-      ]
-    }
+          name: 'Bob',
+          sex: 'yes',
+        },
+      ],
+    };
     console.log(c);
   }
 }

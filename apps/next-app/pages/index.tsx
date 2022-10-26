@@ -2,7 +2,6 @@ import styles from './index.module.scss';
 import { ICompany } from '@monroagh/core/model';
 
 export function Index() {
-
   const c: ICompany = {
     name: 'next company',
     address: {
@@ -11,15 +10,15 @@ export function Index() {
       addressThree: '',
       postcode: '',
       country: '',
-      county: ''
+      county: '',
     },
     users: [
       {
-        name: 'Bob', 
-        sex: 'yes'
-      }
-    ]
-  }
+        name: 'Bob',
+        sex: 'yes',
+      },
+    ],
+  };
   console.log(c);
 
   /*

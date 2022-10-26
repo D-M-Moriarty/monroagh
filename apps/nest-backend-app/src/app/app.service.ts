@@ -12,9 +12,9 @@ export class AppService {
         addressThree: '',
         postcode: '',
         country: '',
-        county: ''
+        county: '',
       },
-      users: null
+      users: null,
     };
   }
 }
