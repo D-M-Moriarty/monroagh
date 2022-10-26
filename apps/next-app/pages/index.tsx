@@ -10,7 +10,8 @@ export function Index() {
       addressTwo: '',
       addressThree: '',
       postcode: '',
-      country: ''
+      country: '',
+      county: ''
     },
     users: [
       {

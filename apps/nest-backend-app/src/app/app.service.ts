@@ -11,7 +11,8 @@ export class AppService {
         addressTwo: '',
         addressThree: '',
         postcode: '',
-        country: ''
+        country: '',
+        county: ''
       },
       users: null
     };

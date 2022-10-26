@@ -23,7 +23,8 @@ export class AppComponent {
         addressTwo: '',
         addressThree: '',
         postcode: '',
-        country: ''
+        country: '',
+        county: ''
       },
       users: [
         {
