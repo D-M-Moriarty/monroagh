@@ -1,8 +1,19 @@
+import { ICompany } from '@monroagh/core/model';
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  getData(): { message: string } {
-    return { message: 'Welcome to nest-backend-app!' };
+  getData(): ICompany {
+    return {
+      name: 'requested company',
+      address: {
+        addressOne: '',
+        addressTwo: '',
+        addressThree: '',
+        postcode: '',
+        country: ''
+      },
+      users: null
+    };
   }
 }
