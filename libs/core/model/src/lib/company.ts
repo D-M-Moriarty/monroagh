@@ -8,6 +8,7 @@ export interface ICompany {
         addressThree: string;
         postcode: string;
         country: string;
+        county: string;
     };
     users: [
         {
