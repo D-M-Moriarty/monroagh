@@ -13,8 +13,12 @@
             "allow": [],
             "depConstraints": [
               {
-                "sourceTag": "*",
-                "onlyDependOnLibsWithTags": ["*"]
+                "sourceTag": "backend",
+                "onlyDependOnLibsWithTags": ["shared", "model"]
+              },
+              {
+                "sourceTag": "frontend",
+                "onlyDependOnLibsWithTags": ["shared", "model"]
               }
             ]
           }
