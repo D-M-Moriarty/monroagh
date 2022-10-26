@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@monroagh/core/model": ["libs/core/model/src/index.ts"],
+      "@monroagh/shared": ["libs/shared/src/index.ts"]
+    },
+    "esModuleInterop": true
   },
   "exclude": ["node_modules", "tmp"]
 }
