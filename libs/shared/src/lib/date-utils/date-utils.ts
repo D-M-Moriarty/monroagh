@@ -1,4 +1,4 @@
-import momentImported from 'moment';
+import momentImported from 'dayjs';
 const moment = momentImported;
 
 export class DateUtils {

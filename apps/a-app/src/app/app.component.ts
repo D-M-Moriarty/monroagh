@@ -29,7 +29,7 @@ export class AppComponent {
       users: [
         {
           name: 'Bob',
-          sex: 'yes',
+          sex: true,
         },
       ],
     };
